@@ -55,7 +55,7 @@ void TIM_Config()
 
 	TIMOC_InitStruct.TIM_OCMode = TIM_OCMode_PWM1; // We will use Mode-1 PWM
 	TIMOC_InitStruct.TIM_OutputState = TIM_OutputState_Enable;
-	TIMOC_InitStruct.TIM_OCPolarity = TIM_OCNPolarity_High;
+	TIMOC_InitStruct.TIM_OCPolarity = TIM_OCPolarity_High;
 
 	SysTick_Config(SystemCoreClock/1000); // 1ms interrupt
 }
