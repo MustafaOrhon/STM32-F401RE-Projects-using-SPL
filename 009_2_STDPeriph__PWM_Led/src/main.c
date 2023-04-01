@@ -80,7 +80,7 @@ int main(void)
           delay_ms(20);
 
       }
-      for(int i = 110; i>0;i--)
+      for(int i = 100; i>0;i--)
           {
 
     	  TIMOC_InitStruct.TIM_Pulse = i;
